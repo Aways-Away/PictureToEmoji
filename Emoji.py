@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 # 读取图片，并且修改图片大小
-G_sm = np.array(Image.open('1.jpg').resize([200, 200]).getdata()).reshape([200, 200, 3]) / 256
+G_sm = np.array(Image.open('2.jpg').resize([100, 100]).getdata()).reshape([100, 100, 3]) / 256
 
 # 显示图片
 plt.figure()
